@@ -42,7 +42,7 @@
 		if(prob(50))
 			new /obj/item/clothing/head/helmet(Tsec)
 		else
-			new /obj/item/clothing/suit/storage/vest(Tsec)
+			new /obj/item/clothing/suit/armor/pcarrier(Tsec)
 
 	var/datum/effect/effect/system/spark_spread/s = new /datum/effect/effect/system/spark_spread
 	s.set_up(3, 1, src)
@@ -108,7 +108,7 @@
 					icon_state = "ed209_legs"
 
 		if(2)
-			if(istype(W, /obj/item/clothing/suit/storage/vest))
+			if(istype(W, /obj/item/clothing/suit/armor/pcarrier))
 				user.drop_item()
 				qdel(W)
 				build_step++
