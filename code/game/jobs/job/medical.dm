@@ -20,7 +20,7 @@
 			access_keycard_auth, access_sec_doors, access_psychiatrist, access_eva, access_external_airlocks, access_maint_tunnels)
 
 	minimum_character_age = 30
-	minimal_player_age = 10
+	minimal_player_age = 7
 	ideal_character_age = 50
 
 	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
@@ -38,7 +38,7 @@
 	idtype = /obj/item/weapon/card/id/medical/doctor
 	economic_modifier = 7
 	minimum_character_age = 30
-	minimal_player_age = 4
+	minimal_player_age = 3
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology, access_genetics, access_eva)
 	minimal_access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_virology, access_eva)
 	outfit_type = /decl/hierarchy/outfit/job/medical/doctor

@@ -41,7 +41,7 @@
 	spawn_positions = 2
 	supervisors = "your laws and the AI"	//Nodrak
 	selection_color = "#254C25"
-	minimal_player_age = 1
+	minimal_player_age = 3
 	alt_titles = list("Robot", "Drone")
 	account_allowed = 0
 	economic_modifier = 0
