@@ -1,7 +1,7 @@
 var/list/gamemode_cache = list()
 
 /datum/configuration
-	var/server_name = null				// server name (for world name / status)
+	var/server_name = "Eridani Station | A Med-High RP Server."				// server name (for world name / status)
 	var/server_suffix = 0				// generate numeric suffix based on server port
 
 	var/nudge_script_path = "nudge.py"  // where the nudge.py script is located
@@ -404,10 +404,10 @@ var/list/gamemode_cache = list()
 
 				if ("norespawn")
 					config.respawn = 0
-
+				/*
 				if ("servername")
 					config.server_name = value
-
+				*/
 				if ("serversuffix")
 					config.server_suffix = 1
 
