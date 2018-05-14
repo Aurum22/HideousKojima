@@ -21,8 +21,7 @@
 			            access_research, access_engine, access_mining, access_medical, access_construction, access_mailsorting,
 			            access_heads, access_hos, access_RC_announce, access_keycard_auth, access_gateway, access_external_airlocks)
 	minimum_character_age = 27
-	whitelist_only = 1
-
+	minimal_player_age = 14
 	outfit_type = /decl/hierarchy/outfit/job/security/hos
 	alt_titles = list("Security Commander", "Chief of Security")
 
@@ -91,16 +90,15 @@
 	faction = "Station"
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "company officials and Corporate Regulations"
+	supervisors = "Head of Security and Corporate Regulations"
 	selection_color = "#601C1C"
 	idtype = /obj/item/weapon/card/id/security/internal_affairs_agent
 	economic_modifier = 7
 	access = list(access_lawyer, access_sec_doors, access_maint_tunnels, access_heads)
 	minimal_access = list(access_lawyer, access_sec_doors, access_heads)
-	minimal_player_age = 7
+	minimal_player_age = 5
 	head_position = 1
-	whitelist_only = 1
-
+	alt_titles = list("Corporate Investigator")
 	outfit_type = /decl/hierarchy/outfit/job/security/internal_affairs_agent
 
 /*

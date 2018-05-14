@@ -22,7 +22,7 @@
 			            access_RC_announce, access_keycard_auth, access_tcomsat, access_gateway, access_xenoarch)
 
 	minimum_character_age = 25
-	minimal_player_age = 14
+	minimal_player_age = 10
 	ideal_character_age = 50
 
 	outfit_type = /decl/hierarchy/outfit/job/science/rd
