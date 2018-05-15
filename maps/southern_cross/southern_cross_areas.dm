@@ -94,6 +94,14 @@
 
 /area/surface/outside/path/wilderness
 
+/area/surface/outside/exp_safehouse
+	name = "Safehouse"
+	icon_state = "blue2"
+
+/area/surface/outside/exp_safevault
+	name = "Safehouse Vault"
+	icon_state = "red"
+
 // Water
 /area/surface/outside/ocean
 	name = "Sea"
