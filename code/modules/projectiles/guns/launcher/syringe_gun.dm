@@ -138,3 +138,11 @@
 	icon_state = "rapidsyringegun"
 	item_state = "rapidsyringegun"
 	max_darts = 5
+
+/obj/item/weapon/gun/launcher/syringe/pistol
+	name = "stim pistol"
+	desc = "A smaller more compact syringe gun, able to fit inside pockets."
+	icon = 'icons/obj/gun_2.dmi'
+	icon_state = "stimpistol"
+	item_state = "syringegun"
+	w_class = ITEMSIZE_SMALL

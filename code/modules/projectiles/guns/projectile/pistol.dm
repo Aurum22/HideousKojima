@@ -97,12 +97,14 @@
 
 /obj/item/weapon/gun/projectile/mk58/flash
 	name = "MK58 signal pistol"
-	desc = "This model of the MK58 is marketed and used as a signal pistol. Doesn't stop it from using real bullets."
+	desc = "This model of the MK58 is marketed and used as a signal pistol. This model lacks rifling on the barrel and has poor accuracy."
+	accuracy = -30
 	magazine_type = /obj/item/ammo_magazine/m45/flash
 
 /obj/item/weapon/gun/projectile/mk58/wood
-	desc = "The NT Mk58 is the Ward Takashi WT58 produced under license by NanoTrasen. This one has a sweet wooden grip. Chambered in .45 ACP."
+	desc = "The NT Mk58 is the Ward Takashi WT58 produced under license by NanoTrasen. This is a custom built MK58 with wooden grips, an improvd barrel and a reflex sight for accurate shooting."
 	name = "custom MK58"
+	accuracy = 15
 	icon_state = "secgundark"
 
 /obj/item/weapon/gun/projectile/mk58/wood/update_icon()

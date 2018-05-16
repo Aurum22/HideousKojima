@@ -19,6 +19,9 @@
 	allow_quick_gather = 1
 	collection_mode = 1
 	var/linked
+	cant_hold = list(
+		/obj/item/device/radio/intercom
+		)
 
 
 /obj/item/weapon/storage/laundry_basket/attack_hand(mob/living/user as mob)

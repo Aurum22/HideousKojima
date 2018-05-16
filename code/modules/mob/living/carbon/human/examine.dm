@@ -292,6 +292,12 @@
 		if(o && o.splinted && o.splinted.loc == o)
 			msg += "<span class='warning'>[T.He] [T.has] \a [o.splinted] on [T.his] [o.name]!</span>\n"
 
+	//tourniquets
+	for(var/organ in BP_ALL)
+		var/obj/item/organ/external/o = get_organ(organ)
+		if(o && o.tourniqueton && o.tourniqueton.loc == o)
+			msg += "<span class='warning'>[T.He] [T.has] a [o.tourniqueton] on [T.his] [o.name]!</span>\n"
+
 	if(suiciding)
 		msg += "<span class='warning'>[T.He] appears to have commited suicide... there is no hope of recovery.</span>\n"
 

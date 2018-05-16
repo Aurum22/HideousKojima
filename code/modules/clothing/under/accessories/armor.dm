@@ -11,6 +11,24 @@
 	w_class = ITEMSIZE_NORMAL
 
 ///////////
+//Concealed Carriers
+///////////
+
+/obj/item/clothing/accessory/armor/vest
+	name = "concealed armor vest"
+	desc = "A concealed soft armor vest worn by operators and police across the galaxy. The PACA is renowned for it's light weight and protection."
+	icon_state = "paca"
+	item_state = "paca"
+	icon_override = 'icons/mob/ties.dmi'
+	icon = 'icons/obj/clothing/ties.dmi'
+	allowed = list(/obj/item/weapon/pen, /obj/item/weapon/paper, /obj/item/device/flashlight, /obj/item/weapon/tank/emergency/oxygen, /obj/item/weapon/storage/fancy/cigarettes, /obj/item/weapon/storage/box/matches, /obj/item/weapon/reagent_containers/food/drinks/flask)
+	armor = list(melee = 40, bullet = 30, laser = 30, energy = 10, bomb = 10, bio = 0, rad = 0)
+	slot_flags = SLOT_OCLOTHING | SLOT_TIE
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO
+	w_class = ITEMSIZE_NORMAL
+	slot = "over"
+
+///////////
 //Pouches
 ///////////
 /obj/item/clothing/accessory/storage/pouches
