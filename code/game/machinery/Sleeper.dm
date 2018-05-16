@@ -4,7 +4,7 @@
 	icon_state = "sleeperconsole"
 	var/obj/machinery/sleeper/sleeper
 	anchored = 1 //About time someone fixed this.
-	density = 0
+	density = 1
 	dir = 8
 	use_power = 1
 	idle_power_usage = 40

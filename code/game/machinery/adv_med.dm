@@ -168,7 +168,7 @@
 	icon = 'icons/obj/Cryogenic2.dmi'
 	icon_state = "scanner_terminal_off"
 	dir = 8
-	density = 0
+	density = 1
 	anchored = 1
 	circuit = /obj/item/weapon/circuitboard/scanner_console
 	var/printing = null
@@ -348,6 +348,8 @@
 					organStatus["robotic"] = 1
 				if(E.splinted)
 					organStatus["splinted"] = 1
+				if(E.tourniqueton)
+					organStatus["tourniquet"] = 1
 				if(E.status & ORGAN_BLEEDING)
 					organStatus["bleeding"] = 1
 				if(E.status & ORGAN_DEAD)
@@ -499,6 +501,7 @@
 				var/imp = ""
 				var/bled = ""
 				var/splint = ""
+				var/tourniquet = ""
 				var/internal_bleeding = ""
 				var/lung_ruptured = ""
 				var/o_dead = ""
@@ -509,6 +512,8 @@
 					lung_ruptured = "Lung ruptured:"
 				if(e.splinted)
 					splint = "Splinted:"
+				if(e.tourniqueton)
+					tourniquet = "Tourniquet"
 				if(e.status & ORGAN_BLEEDING)
 					bled = "Bleeding:"
 				if(e.status & ORGAN_BROKEN)
@@ -547,7 +552,7 @@
 				if(!AN && !open && !infected & !imp)
 					AN = "None:"
 				if(!(e.status & ORGAN_DESTROYED))
-					dat += "<td>[e.name]</td><td>[e.burn_dam]</td><td>[e.brute_dam]</td><td>[robot][bled][AN][splint][open][infected][imp][internal_bleeding][lung_ruptured][o_dead]</td>"
+					dat += "<td>[e.name]</td><td>[e.burn_dam]</td><td>[e.brute_dam]</td><td>[robot][bled][AN][splint][tourniquet][open][infected][imp][internal_bleeding][lung_ruptured][o_dead]</td>"
 				else
 					dat += "<td>[e.name]</td><td>-</td><td>-</td><td>Not Found</td>"
 				dat += "</tr>"

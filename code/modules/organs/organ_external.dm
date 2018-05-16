@@ -54,6 +54,7 @@
 	var/organ_rel_size = 25            // Relative size of the organ.
 	var/base_miss_chance = 20          // Chance of missing.
 	var/atom/movable/splinted
+	var/atom/movable/tourniqueton
 
 	// Joint/state stuff.
 	var/can_grasp                      // It would be more appropriate if these two were named "affects_grasp" and "affects_stand" at this point
@@ -91,6 +92,10 @@
 	if(splinted && splinted.loc == src)
 		qdel(splinted)
 	splinted = null
+
+	if(tourniqueton && tourniqueton.loc == src)
+		qdel(tourniqueton)
+	tourniqueton = null
 
 	if(owner)
 		owner.organs -= src
@@ -1003,6 +1008,19 @@ Note that amputating the affected organ does in fact remove the infection from t
 		W.clamped = 1
 	return rval
 
+/obj/item/organ/external/proc/tq()
+	var/rval = 0
+	src.status &= ~ORGAN_BLEEDING
+	for(var/datum/wound/W in wounds)
+		rval |= !W.clamped
+		W.clamped = 1
+	return rval
+
+/obj/item/organ/external/proc/untq()
+	for(var/datum/wound/W in wounds)
+		if(W.internal) continue
+		W.clamped = 0
+
 /obj/item/organ/external/proc/fracture()
 	if(robotic >= ORGAN_ROBOT)
 		return	//ORGAN_BROKEN doesn't have the same meaning for robot limbs
@@ -1058,6 +1076,22 @@ Note that amputating the affected organ does in fact remove the infection from t
 		if(applied_pressure == splinted)
 			applied_pressure = null
 		splinted = null
+		return 1
+	return 0
+
+/obj/item/organ/external/proc/apply_tourniquet(var/atom/movable/tourniquet)
+	if(!tourniqueton)
+		tourniqueton = tourniquet
+		tq()
+		return 1
+	return 0
+
+/obj/item/organ/external/proc/remove_tourniquet()
+	if(tourniqueton)
+		if(tourniqueton.loc == src)
+			tourniqueton.dropInto(owner? owner.loc : src.loc)
+		tourniqueton = null
+		untq()
 		return 1
 	return 0
 
