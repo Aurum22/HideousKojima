@@ -28,6 +28,10 @@
 	var/allowed_magazines		//determines list of which magazines will fit in the gun
 	var/auto_eject = 0			//if the magazine should automatically eject itself when empty.
 	var/auto_eject_sound = null
+
+	var/is_jammed = 0           //Whether this gun is jammed
+	var/jam_chance = 0          //Chance it jams on fire
+
 	//TODO generalize ammo icon states for guns
 	//var/magazine_states = 0
 	//var/list/icon_keys = list()		//keys
@@ -44,6 +48,8 @@
 	update_icon()
 
 /obj/item/weapon/gun/projectile/consume_next_projectile()
+	if(is_jammed)
+		return 0
 	//get the next casing
 	if(loaded.len)
 		chambered = loaded[1] //load next casing.
@@ -67,6 +73,15 @@
 /obj/item/weapon/gun/projectile/handle_click_empty()
 	..()
 	process_chambered()
+
+/obj/item/weapon/gun/projectile/special_check(var/mob/user)
+	if(!..())
+		return 0
+	if(!is_jammed && jam_chance)
+		if(prob(jam_chance))
+			user << "<span class='danger'>\The [src] jams!</span>"
+			is_jammed = 1
+	return 1
 
 /obj/item/weapon/gun/projectile/proc/process_chambered()
 	if (!chambered) return
@@ -199,6 +214,17 @@
 	load_ammo(A, user)
 
 /obj/item/weapon/gun/projectile/attack_self(mob/user as mob)
+	if(is_jammed)
+		user << "<span class='notice'>\The [user] unjams \the [src]!</span>"
+		if(do_after(user, 5))
+			playsound(src.loc, 'sound/weapons/empty.ogg', 100, 1)
+			is_jammed = 0
+	else if(firemodes.len > 1)
+		..()
+	else
+		unload_ammo(user)
+
+/obj/item/weapon/gun/projectile/attack_self(mob/user as mob)
 	if(firemodes.len > 1)
 		switch_firemodes(user)
 	else
@@ -226,6 +252,8 @@
 
 /obj/item/weapon/gun/projectile/examine(mob/user)
 	..(user)
+	if(is_jammed)
+		user << "<span class='warning'>It looks jammed.</span>"
 	if(ammo_magazine)
 		user << "It has \a [ammo_magazine] loaded."
 	user << "Has [getAmmo()] round\s remaining."
