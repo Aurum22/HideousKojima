@@ -396,13 +396,29 @@ area/space/atmosalert()
 	name = "\improper CentCom Medical"
 	icon_state = "centcom_medical"
 
+/area/centcom/checkpoint
+	name = "\improper CentCom Checkpoint"
+	icon_state = "centcom_command"
+
 /area/centcom/command
 	name = "\improper CentCom Command" //Central Command Command totally isn't RAS Syndrome in action.
 	icon_state = "centcom_command"
 
+/area/centcom/bureau
+	name = "\improper CentCom Bureau"
+	icon_state = "centcom_security"
+
+/area/centcom/research
+	name = "\improper CentCom Research"
+	icon_state = "centcom_medical"
+
 /area/centcom/main_hall
 	name = "\improper Main Hallway"
 	icon_state = "centcom_hallway1"
+
+/area/centcom/cryo
+	name = "\improper Centcom Cryo"
+	icon_state = "centcom_medical"
 
 /area/centcom/bar
 	name = "\improper CentCom Bar"
