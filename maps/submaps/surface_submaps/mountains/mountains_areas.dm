@@ -86,3 +86,11 @@
 
 /area/submap/cave/BlastMine1
 	name = "Blast Mine 1"
+
+// Aegirian Ruins: the gathering
+
+/area/submap/AegirianTemple
+	name = "Aegirian Temple"
+
+/area/submap/AegirianShip
+	name = "Aegirian Ship"

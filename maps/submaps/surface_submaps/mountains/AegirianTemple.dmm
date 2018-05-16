@@ -1,0 +1,49 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"b" = (/turf/simulated/wall/sandstonediamond,/area/submap/AegirianTemple)
+"c" = (/obj/structure/simple_door/sifwood,/turf/simulated/floor/carpet/tealcarpet,/area/submap/AegirianTemple)
+"d" = (/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"e" = (/turf/simulated/floor/carpet/tealcarpet,/area/submap/AegirianTemple)
+"f" = (/obj/effect/decal/remains/ribcage,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"g" = (/turf/simulated/floor/wood/sif/broken,/area/submap/AegirianTemple)
+"h" = (/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"i" = (/obj/item/stack/tile/carpet/teal,/turf/simulated/floor/wood/sif/broken,/area/submap/AegirianTemple)
+"j" = (/obj/item/weapon/stool,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"k" = (/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/wood/sif/broken,/area/submap/AegirianTemple)
+"l" = (/obj/effect/decal/cleanable/greenglow,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"m" = (/obj/structure/window/phoronbasic,/turf/simulated/floor/wood/sif/broken,/area/submap/AegirianTemple)
+"n" = (/obj/structure/window/phoronbasic,/obj/item/weapon/stool,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"o" = (/obj/structure/window/phoronbasic,/obj/item/weapon/stool,/turf/simulated/floor/wood/sif/broken,/area/submap/AegirianTemple)
+"p" = (/obj/item/weapon/material/shard/phoron,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"q" = (/obj/structure/window/phoronbasic,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"r" = (/obj/structure/window/phoronbasic,/obj/effect/decal/remains/ribcage,/obj/item/weapon/stool,/turf/simulated/floor/wood/sif/broken,/area/submap/AegirianTemple)
+"s" = (/obj/item/weapon/material/shard/phoron,/obj/item/weapon/stool,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"t" = (/obj/structure/table/rack,/obj/random/junk,/obj/random/junk,/obj/random/tool/alien,/obj/item/prop/alien/junk,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"u" = (/obj/structure/table/rack,/obj/random/material,/obj/random/material,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"v" = (/obj/item/weapon/bone/ribs,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"w" = (/obj/effect/decal/cleanable/blood/xeno,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"x" = (/mob/living/simple_animal/hostile/faithless/cult{faction = "corrupted"; health = 300; light_color = "#33FF33"; light_power = 2; light_range = 4; maxHealth = 300; name = "Ancient Spirit"},/turf/simulated/floor/carpet/tealcarpet,/area/submap/AegirianTemple)
+"y" = (/obj/structure/table/rack,/obj/random/material,/obj/item/prop/alien/junk,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"z" = (/obj/effect/decal/cleanable/greenglow,/turf/simulated/floor/carpet/tealcarpet,/area/submap/AegirianTemple)
+"A" = (/obj/item/stack/material/gold,/obj/item/clothing/gloves/ring/material/gold,/turf/simulated/floor/carpet/tealcarpet,/area/submap/AegirianTemple)
+"B" = (/obj/structure/table/rack,/obj/random/technology_scanner,/obj/random/technology_scanner,/obj/random/tool/alien,/turf/simulated/floor/wood/sif,/area/submap/AegirianTemple)
+"C" = (/obj/structure/table/alien,/obj/effect/decal/cleanable/blood/xeno,/obj/effect/decal/remains/mummy1,/turf/simulated/floor/carpet/tealcarpet,/area/submap/AegirianTemple)
+"D" = (/obj/effect/decal/cleanable/blood/xeno,/turf/simulated/floor/carpet/tealcarpet,/area/submap/AegirianTemple)
+"E" = (/obj/item/stack/tile/carpet/teal,/obj/machinery/crystal/ice,/turf/simulated/floor/wood/sif/broken,/area/submap/AegirianTemple)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaa
+aaaabbbcbbbaaaa
+aaabbddeddbbaaa
+aabbfddegdfbbaa
+aabhgddiddddbaa
+aabdjdgeddjkbaa
+aabldddeddddbaa
+abbmnopeqrspbba
+abtddddedddduba
+abvddhwxghddfba
+abygddizAddgBba
+abbdddeCDgddbba
+aabbbbeEebbbbaa
+aaaaabbbbbaaaaa
+"}

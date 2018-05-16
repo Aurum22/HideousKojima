@@ -257,3 +257,17 @@
 	desc = "An abandoned blast mining site, seems that local wildlife has moved in."
 	mappath = 'maps/submaps/surface_submaps/mountains/BlastMine1.dmm'
 	cost = 20
+
+// Aegirian Ruins
+
+/datum/map_template/surface/mountains/deep/AegirianTemple
+	name = "Aegirian Temple"
+	desc = "An ancient Aegirian ruin. The wildlife inside seems... corrupted."
+	mappath = 'maps/submaps/surface_submaps/mountains/AegirianTemple.dmm'
+	cost = 30
+
+/datum/map_template/surface/mountains/deep/AegirianShip
+	name = "Aegirian Ship"
+	desc = "An ancient Aegirian Shuttle docked to a port. Seems... strange.."
+	mappath = 'maps/submaps/surface_submaps/mountains/AegirianShip.dmm'
+	cost = 30
