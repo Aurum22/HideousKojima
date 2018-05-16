@@ -23,7 +23,7 @@
 
 	station_name  = "NTTRS Caerus"
 	station_short = "Caerus"
-	dock_name     = "NTCS Eridani" // Now we're the centcom!
+	dock_name     = "NTCC Helios" // Now we're the centcom!
 	boss_name     = "Central Command"
 	boss_short    = "Centcom"
 	company_name  = "NanoTrasen"
