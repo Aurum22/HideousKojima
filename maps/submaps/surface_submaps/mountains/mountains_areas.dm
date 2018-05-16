@@ -1,3 +1,4 @@
+// To be made for each new structures.
 /area/submap/cave
 	name = "Cave Submap Area"
 	icon_state = "submap"

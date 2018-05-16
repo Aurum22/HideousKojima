@@ -1,3 +1,4 @@
+// To be added for each new structures.
 /area/submap
 	name = "Submap Area"
 	icon_state = "submap"
@@ -77,4 +78,8 @@
 
 /area/submap/Drugd
 	name = "DrugDen"
+
+
+/area/submap/AegirianGraveyard
+	name = "Aegirian Graveyard"
 
