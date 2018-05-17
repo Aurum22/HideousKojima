@@ -1,0 +1,41 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"b" = (/turf/simulated/mineral/sif,/area/space)
+"c" = (/turf/simulated/floor/outdoors/mud/sif/planetuse,/area/space)
+"d" = (/obj/structure/gravemarker{desc = "A Grave marker. Some ancient writing is enscribbed on it."},/turf/simulated/mineral/floor/sif,/area/space)
+"e" = (/obj/item/weapon/material/gravemarker{desc = "A Grave Marker shaped like some crude bird. There's some scribbed on it, but its in an ancient language."},/turf/simulated/mineral/floor/sif,/area/space)
+"f" = (/obj/item/weapon/material/gravemarker{desc = "A Grave Marker shaped like some crude bird. There's some scribbed on it, but its in an ancient language."},/obj/random/material,/obj/random/material,/turf/simulated/mineral/floor/sif,/area/space)
+"g" = (/obj/item/weapon/material/gravemarker{desc = "A Grave Marker shaped like some crude bird. There's some scribbed on it, but its in an ancient language."},/mob/living/simple_animal/hostile/faithless/cult{desc = "A soul damned to wander here for eternity."; faction = "corrupted"; health = 300; maxHealth = 300; name = "Damned Spirit"},/turf/simulated/mineral/floor/sif,/area/space)
+"h" = (/obj/structure/gravemarker{desc = "A Grave marker. Some ancient writing is enscribbed on it."},/obj/random/material,/obj/random/material,/turf/simulated/mineral/floor/sif,/area/space)
+"i" = (/obj/structure/gravemarker,/obj/random/material,/obj/random/material,/turf/simulated/mineral/floor/sif,/area/space)
+"j" = (/obj/effect/decal/remains/xeno,/turf/simulated/floor/outdoors/mud/sif/planetuse,/area/space)
+"k" = (/turf/simulated/wall/sifwood,/area/space)
+"l" = (/mob/living/simple_animal/hostile/faithless/cult{desc = "A soul damned to wander here for eternity."; faction = "corrupted"; health = 300; maxHealth = 300; name = "Damned Spirit"},/turf/simulated/floor/outdoors/mud/sif/planetuse,/area/space)
+"m" = (/obj/structure/table/alien,/turf/simulated/floor/wood/sif,/area/space)
+"n" = (/obj/structure/table/alien,/obj/effect/decal/remains/xeno,/turf/simulated/floor/wood/sif,/area/space)
+"o" = (/obj/machinery/door/airlock/alien/locked,/turf/simulated/floor/wood/sif,/area/space)
+"p" = (/turf/simulated/floor/wood/sif,/area/space)
+"q" = (/obj/effect/decal/remains/xeno,/turf/simulated/floor/wood/sif,/area/space)
+"r" = (/obj/machinery/door/airlock/alien/public,/turf/simulated/floor/wood/sif,/area/space)
+
+(1,1,1) = {"
+aaaaabbbaaaaaaaaaaaa
+aaabbbbbbbaaabbbbaaa
+abbbbbbbbbbbbbbbbbba
+bbbbcccccbbbbbbbbbba
+bbbcccdccccccccbbbaa
+bbbcecccecfcdccbbbaa
+abccccfcccccccbbbaaa
+bbccecccecccgcbbaaaa
+bbbcccgcccdccccbbaaa
+bbbcecccccccchcbbaaa
+bbccccccicecccccbbaa
+abcecgccccccfcecbbaa
+bbcccccecfccccccbbba
+bbbcececccccjkkkkkba
+abbcccccelecckmnmkbb
+abbccfcccccccopppkbb
+bbbbbccbbbccckqppkba
+bbbbbbbbbbbbbkkrkkba
+abbaabbbaabbbbbaaaaa
+aaaaaaaaaaaaaaaaaaaa
+"}

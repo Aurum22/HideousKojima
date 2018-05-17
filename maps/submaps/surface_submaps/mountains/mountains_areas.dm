@@ -1,3 +1,4 @@
+// To be made for each new structures.
 /area/submap/cave
 	name = "Cave Submap Area"
 	icon_state = "submap"
@@ -86,3 +87,11 @@
 
 /area/submap/cave/BlastMine1
 	name = "Blast Mine 1"
+
+// Aegirian Ruins: the gathering
+
+/area/submap/AegirianTemple
+	name = "Aegirian Temple"
+
+/area/submap/AegirianShip
+	name = "Aegirian Ship"

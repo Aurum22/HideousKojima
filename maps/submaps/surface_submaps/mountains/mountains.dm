@@ -1,6 +1,7 @@
 // This causes PoI maps to get 'checked' and compiled, when undergoing a unit test.
 // This is so Travis can validate PoIs, and ensure future changes don't break PoIs, as PoIs are loaded at runtime and the compiler can't catch errors.
 // When adding a new PoI, please add it to this list.
+// Don't forget to add these. Really.
 #if MAP_TEST
 #include "deadBeacon.dmm"
 #include "prepper1.dmm"
@@ -30,6 +31,8 @@
 #include "SwordCave.dmm"
 #include "SupplyDrop1.dmm"
 #include "BlastMine1.dmm"
+#include "AegirianShip.dmm"
+#include "AegirianTemple.dmm"
 #endif
 
 // The 'mountains' is the mining z-level, and has a lot of caves.
@@ -257,3 +260,17 @@
 	desc = "An abandoned blast mining site, seems that local wildlife has moved in."
 	mappath = 'maps/submaps/surface_submaps/mountains/BlastMine1.dmm'
 	cost = 20
+
+// Aegirian Ruins
+
+/datum/map_template/surface/mountains/deep/AegirianTemple
+	name = "Aegirian Temple"
+	desc = "An ancient Aegirian ruin. The wildlife inside seems... corrupted."
+	mappath = 'maps/submaps/surface_submaps/mountains/AegirianTemple.dmm'
+	cost = 30
+
+/datum/map_template/surface/mountains/deep/AegirianShip
+	name = "Aegirian Ship"
+	desc = "An ancient Aegirian Shuttle docked to a port. Seems... strange.."
+	mappath = 'maps/submaps/surface_submaps/mountains/AegirianShip.dmm'
+	cost = 30
