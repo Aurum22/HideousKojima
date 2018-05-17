@@ -344,7 +344,7 @@
 /obj/item/stack/medical/tourniquet
 	name = "tourniquet"
 	singular_name = "tourniquet"
-	desc = "Tourniquet capable of stopping bleeding in both limbs and appendages."
+	desc = "A ourniquet capable of stopping bleeding in both limbs and appendages."
 	icon_state = "tourniquet"
 	amount = 1
 	max_amount = 1
@@ -405,5 +405,5 @@
 						user.visible_message("<span class='danger'>\The [user] finishes applying [src] to [M]'s [limb].</span>", "<span class='danger'>You finish applying \the [src] to [M]'s [limb].</span>", "<span class='danger'>You hear something being wrapped.</span>")
 						B.use(1)
 						return
-			user.visible_message("<span class='danger'>\The [user] fails to apply [src].</span>", "<span class='danger'>You fail to apply [src].</span>", "<span class='danger'>You hear something being wrapped.</span>")
+			user.visible_message("<span class='danger'>\The [user] fails to apply [src].</span>", "<span class='danger'>You fail to apply [src].</span>", "<span class='danger'>You hear something being tightened.</span>")
 		return
