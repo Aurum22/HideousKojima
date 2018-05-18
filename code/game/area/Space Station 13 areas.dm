@@ -428,6 +428,11 @@ area/space/atmosalert()
 	name = "\improper CentCom Bar"
 	icon_state = "centcom_crew"
 
+/area/centcom/deposit
+	name = "\improper CentCom Deposit Office"
+	icon_state = "centcom_crew"
+
+
 /area/centcom/restaurant
 	name = "\improper CentCom Restaurant"
 	icon_state = "centcom_crew"
