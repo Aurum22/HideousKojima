@@ -16,7 +16,6 @@
 "ap" = (/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
 "aq" = (/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; glow_color = "#11CC11"; glow_intensity = 1; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
 "ar" = (/obj/effect/decal/remains/ribcage,/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
-"as" = (/obj/effect/wingrille_spawn/reinforced_phoron,/obj/effect/wingrille_spawn/reinforced_phoron,/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
 "at" = (/obj/structure/bed/alien,/obj/effect/decal/cleanable/molten_item,/obj/effect/decal/cleanable/molten_item,/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; glow_color = "#11CC11"; glow_intensity = 1; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
 "au" = (/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; glow_color = "#11CC11"; glow_intensity = 1; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
 "av" = (/obj/structure/bed/alien,/obj/effect/decal/cleanable/molten_item,/obj/effect/decal/cleanable/molten_item,/obj/effect/decal/remains/ribcage,/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
@@ -60,15 +59,15 @@ aaaaaaaaaaaaaaaaababaaaaaaabaaacacacacacacacadadacaa
 aaaaaaaaaaaaabababababababababacaeafagahaiahafahadaa
 aaaaaaababababababababababababajahakahahahahahaladaa
 aaaaaaabamamananamamabababababajahaoahahahahahahacaa
-aaaaaaaaamapaqarapamabababababasahatafahahauafahacaa
+aaaaaaaaamapaqarapamabababababajahatafahahauafahacaa
 aaaaaaaaamapapapaqamabababababajahavafahahahahahacaa
 aaaaaaamamawaxaxawamamababababacagahahahahayahazacaa
 aaaaaaamaAapapapapaBamacacacacacaCahafalahahahahacaa
 aaaaaaaDapapapapapapaEaFafaGaHaFafahahahafahahafacaa
-aaaaaaamaIapapapapapamacacacacacaJahahahahahahahacaa
-aaaaaaamamaxamamaxamamababababacazafahafahahahagacaa
+aaaaaaawaIapapapapapawacacacacacaJahahahahahahahacaa
+aaaaaaamawaxamamaxawamababababacazafahafahahahagacaa
 aaaaaaaaamaqaKaLapamabababababacaeahaMahahahalafacaa
-aaaaamamamarapapapamamamabababacacaNaNacacaOaPahacaa
+aaaaamamawarapapapawamamabababacacaNaNacacaOaPahacaa
 aaamamaQawapapapaqawaLamamababacaRaCaCaSacahaTahacaa
 aaamaUapaxapapapapaxaVaWamababacaXaCaCaCadafahahacaa
 aaamamaYawamamamamawaLamamababacaZbabbbcacahahafacaa
