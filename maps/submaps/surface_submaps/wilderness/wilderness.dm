@@ -205,7 +205,7 @@
 	mappath = 'maps/submaps/surface_submaps/wilderness/Musk.dmm'
 	cost = 10
 
-/datum/map_template/surface/wilderness/normal/AegirianGraveyard
+/datum/map_template/surface/wilderness/deep/AegirianGraveyard
 	name = "Aegirian Graveyard"
 	desc = "Haunted and empty."
 	mappath = 'maps/submaps/surface_submaps/wilderness/AegirianGraveyard.dmm'

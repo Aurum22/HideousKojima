@@ -392,6 +392,10 @@ area/space/atmosalert()
 	name = "\improper CentCom Security"
 	icon_state = "centcom_security"
 
+/area/centcom/security_shuttle
+	name = "\improper CentCom Security Shuttle" // Fixed shuttle until we implement it. (if.)
+	icon_state = "centcom_dock"
+
 /area/centcom/medical
 	name = "\improper CentCom Medical"
 	icon_state = "centcom_medical"
@@ -431,6 +435,11 @@ area/space/atmosalert()
 /area/centcom/bathroom
 	name = "\improper CentCom Bathroom"
 	icon_state = "centcom_crew"
+
+
+/area/centcom/ert_jail
+	name = "\improper CentCom Spec. Ops. Detention"
+	icon_state = "centcom_security"
 
 //SYNDICATES
 
@@ -1907,6 +1916,12 @@ area/space/atmosalert()
 	name = "\improper Security - Forensic Office"
 	icon_state = "detective"
 	sound_env = MEDIUM_SOFTFLOOR
+
+/area/security/mini_forensic
+	name = "\improper Security - Mini Forensic Lab"
+	icon_state = "detective"
+	sound_env = MEDIUM_SOFTFLOOR
+
 
 /area/security/range
 	name = "\improper Security - Firing Range"
