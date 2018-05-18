@@ -815,11 +815,11 @@
 
 
 /obj/item/weapon/book/manual/security_space_law
-	name = "Corporate Regulations"
-	desc = "A set of corporate guidelines for keeping law and order on privately-owned space stations."
+	name = "Station Regulations, Infractions and Governmental Laws"
+	desc = "A set of Corporate rules, regulations, and the Governmental Laws that are in place for the NTTRS Caerus."
 	icon_state = "bookSpaceLaw"
 	author = "The Company"
-	title = "Corporate Regulations"
+	title = "Station Regulations, Infractions and Governmental Laws"
 
 /obj/item/weapon/book/manual/security_space_law/New()
 	..()
@@ -829,7 +829,7 @@
 		</head>
 
 		<body>
-		<iframe width='100%' height='97%' src="[config.wikiurl]Corporate_Regulations&printable=yes&remove_links=1" frameborder="0" id="main_frame"></iframe>
+		<iframe width='100%' height='97%' src="[config.wikiurl]Station_Regulations&printable=yes&remove_links=1" frameborder="0" id="main_frame"></iframe>
 		</body>
 
 		</html>
