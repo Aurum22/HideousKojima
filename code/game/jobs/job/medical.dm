@@ -38,7 +38,7 @@
 	idtype = /obj/item/weapon/card/id/medical/doctor
 	economic_modifier = 7
 	minimum_character_age = 30
-	minimal_player_age = 3
+	minimal_player_age = 0
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology, access_genetics, access_eva)
 	minimal_access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_virology, access_eva)
 	outfit_type = /decl/hierarchy/outfit/job/medical/doctor
@@ -61,7 +61,7 @@
 	idtype = /obj/item/weapon/card/id/medical/doctor
 	economic_modifier = 7
 	minimum_character_age = 35
-	minimal_player_age = 4
+	minimal_player_age = 0
 	access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_chemistry, access_virology, access_genetics, access_eva)
 	minimal_access = list(access_medical, access_medical_equip, access_morgue, access_surgery, access_virology, access_eva)
 	outfit_type = /decl/hierarchy/outfit/job/medical/doctor/surgeon
@@ -83,7 +83,7 @@
 	alt_titles = list(
 		"Pharmaceutical Technician",
 		"Microbiologist" = /decl/hierarchy/outfit/job/medical/labtech/micro)
-	minimal_player_age = 3
+	minimal_player_age = 0
 	minimum_character_age = 27
 
 	outfit_type = /decl/hierarchy/outfit/job/medical/labtech
@@ -162,5 +162,5 @@
 	minimal_access = list(access_medical, access_medical_equip, access_morgue, access_eva, access_maint_tunnels, access_external_airlocks)
 	outfit_type = /decl/hierarchy/outfit/job/medical/paramedic
 	alt_titles = list("Emergency Medical Technician" = /decl/hierarchy/outfit/job/medical/paramedic/emt)
-	minimal_player_age = 2
+	minimal_player_age = 0
 	minimum_character_age = 20

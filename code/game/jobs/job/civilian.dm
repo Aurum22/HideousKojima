@@ -49,7 +49,7 @@
 	minimal_access = list(access_hydroponics)
 
 	outfit_type = /decl/hierarchy/outfit/job/service/gardener
-	alt_titles = list("Gardener")
+	alt_titles = list("Gardener","Hydroponist")
 
 //Cargo
 /datum/job/qm
@@ -71,7 +71,7 @@
 	ideal_character_age = 40
 
 	outfit_type = /decl/hierarchy/outfit/job/cargo/qm
-	alt_titles = list("Supply Chief")
+	alt_titles = list("Supply Chief","Logistic Officer")
 
 /datum/job/cargo_tech
 	title = "Cargo Technician"
