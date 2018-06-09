@@ -815,11 +815,11 @@
 
 
 /obj/item/weapon/book/manual/security_space_law
-	name = "Corporate Regulations"
-	desc = "A set of corporate guidelines for keeping law and order on privately-owned space stations."
+	name = "Station Regulations, Infractions and Governmental Laws"
+	desc = "A set of Corporate rules, regulations, and the Governmental Laws that are in place for the NTTRS Caerus."
 	icon_state = "bookSpaceLaw"
-	author = "The Company"
-	title = "Corporate Regulations"
+	author = "NanoTrasen"
+	title = "Station Regulations, Infractions and Governmental Laws"
 
 /obj/item/weapon/book/manual/security_space_law/New()
 	..()
@@ -829,7 +829,52 @@
 		</head>
 
 		<body>
-		<iframe width='100%' height='97%' src="[config.wikiurl]Corporate_Regulations&printable=yes&remove_links=1" frameborder="0" id="main_frame"></iframe>
+		<iframe width='100%' height='97%' src="https://eridanistation.com/wiki/index.php/Station_Regulations" frameborder="0" id="main_frame"></iframe>
+		</body>
+
+		</html>
+
+		"}
+
+
+/obj/item/weapon/book/manual/sop
+	name = "Station Standard Operation Procedures"
+	desc = "The handy guide to the Standard Operation Procedures for the NTTRS Caerus."
+	icon_state = "bookSOP"
+	author = "NanoTrasen"
+	title = "Station Standard Operation Procedures"
+
+/obj/item/weapon/book/manual/sop/New()
+	..()
+	dat = {"
+
+		<html><head>
+		</head>
+
+		<body>
+		<iframe width='100%' height='97%' src="https://eridanistation.com/wiki/index.php?title=Standard_Operating_Procedures" frameborder="0" id="main_frame"></iframe>
+		</body>
+
+		</html>
+
+		"}
+
+/obj/item/weapon/book/manual/paperwork
+	name = "NanoTrasen Approved Form and Paperwork"
+	desc = "The handy guide featuring the official Paperwork for NT stations."
+	icon_state = "bookpaperwork"
+	author = "NanoTrasen CCIA Bureau"
+	title = "Paperwork and Form Guide"
+
+/obj/item/weapon/book/manual/paperwork/New()
+	..()
+	dat = {"
+
+		<html><head>
+		</head>
+
+		<body>
+		<iframe width='100%' height='97%' src="https://eridanistation.com/wiki/index.php/Paperwork" frameborder="0" id="main_frame"></iframe>
 		</body>
 
 		</html>

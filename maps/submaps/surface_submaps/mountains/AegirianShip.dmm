@@ -14,11 +14,10 @@
 "an" = (/obj/effect/wingrille_spawn/reinforced_phoron,/turf/simulated/shuttle/floor/alienplating/external,/area/submap/AegirianShip)
 "ao" = (/obj/structure/bed/alien,/obj/effect/decal/cleanable/greenglow,/obj/effect/decal/remains/ribcage,/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
 "ap" = (/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
-"aq" = (/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
+"aq" = (/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; glow_color = "#11CC11"; glow_intensity = 1; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
 "ar" = (/obj/effect/decal/remains/ribcage,/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
-"as" = (/obj/effect/wingrille_spawn/reinforced_phoron,/obj/effect/wingrille_spawn/reinforced_phoron,/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
-"at" = (/obj/structure/bed/alien,/obj/effect/decal/cleanable/molten_item,/obj/effect/decal/cleanable/molten_item,/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
-"au" = (/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
+"at" = (/obj/structure/bed/alien,/obj/effect/decal/cleanable/molten_item,/obj/effect/decal/cleanable/molten_item,/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; glow_color = "#11CC11"; glow_intensity = 1; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
+"au" = (/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; glow_color = "#11CC11"; glow_intensity = 1; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
 "av" = (/obj/structure/bed/alien,/obj/effect/decal/cleanable/molten_item,/obj/effect/decal/cleanable/molten_item,/obj/effect/decal/remains/ribcage,/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
 "aw" = (/turf/simulated/shuttle/wall/alien/no_join,/area/submap/AegirianShip)
 "ax" = (/obj/machinery/door/airlock/alien/public,/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
@@ -31,7 +30,7 @@
 "aE" = (/obj/machinery/door/airlock/alien/public,/turf/simulated/shuttle/floor/alienplating/external,/area/submap/AegirianShip)
 "aF" = (/obj/machinery/door/airlock/alien/public,/turf/simulated/floor/tiled/dark,/area/submap/AegirianShip)
 "aG" = (/obj/effect/decal/cleanable/blood,/turf/simulated/floor/tiled/dark,/area/submap/AegirianShip)
-"aH" = (/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/tiled/dark,/area/submap/AegirianShip)
+"aH" = (/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; glow_color = "#11CC11"; glow_intensity = 1; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/tiled/dark,/area/submap/AegirianShip)
 "aI" = (/obj/structure/loot_pile/surface/alien,/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
 "aJ" = (/obj/effect/decal/cleanable/molten_item,/turf/simulated/floor/tiled/dark,/area/submap/AegirianShip)
 "aK" = (/obj/structure/bed/alien,/obj/random/powercell,/obj/random/powercell,/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
@@ -43,7 +42,7 @@
 "aQ" = (/obj/structure/table/alien,/obj/item/weapon/virusdish/random,/obj/item/weapon/virusdish/random,/obj/item/weapon/virusdish/random,/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
 "aR" = (/obj/structure/closet/crate/secure/loot,/obj/random/medical,/obj/random/medical/lite,/obj/random/technology_scanner,/obj/random/trash,/obj/random/tool/alien,/obj/item/prop/alien/junk,/obj/effect/decal/cleanable/molten_item,/obj/effect/decal/cleanable/molten_item,/turf/simulated/floor/tiled/dark,/area/submap/AegirianShip)
 "aS" = (/obj/structure/closet/crate/secure/loot,/obj/random/powercell,/obj/random/medical/lite,/obj/random/technology_scanner,/obj/random/trash,/obj/item/prop/alien/junk,/obj/item/prop/alien/junk,/turf/simulated/floor/tiled/dark,/area/submap/AegirianShip)
-"aT" = (/obj/structure/table/bench/standard,/obj/effect/decal/remains/ribcage,/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
+"aT" = (/obj/structure/table/bench/standard,/obj/effect/decal/remains/ribcage,/mob/living/simple_animal/hostile/alien/drone{faction = "corrupted"; glow_color = "#11CC11"; glow_intensity = 1; light_color = "#33FF33"; light_range = 1; name = "corrupted drone"},/turf/simulated/floor/tiled/monotile,/area/submap/AegirianShip)
 "aU" = (/obj/structure/table/alien,/obj/random/tank,/obj/random/tank,/obj/random/firstaid,/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
 "aV" = (/obj/random/junk,/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
 "aW" = (/obj/machinery/crystal,/turf/simulated/shuttle/floor/alien,/area/submap/AegirianShip)
@@ -60,15 +59,15 @@ aaaaaaaaaaaaaaaaababaaaaaaabaaacacacacacacacadadacaa
 aaaaaaaaaaaaabababababababababacaeafagahaiahafahadaa
 aaaaaaababababababababababababajahakahahahahahaladaa
 aaaaaaabamamananamamabababababajahaoahahahahahahacaa
-aaaaaaaaamapaqarapamabababababasahatafahahauafahacaa
+aaaaaaaaamapaqarapamabababababajahatafahahauafahacaa
 aaaaaaaaamapapapaqamabababababajahavafahahahahahacaa
 aaaaaaamamawaxaxawamamababababacagahahahahayahazacaa
 aaaaaaamaAapapapapaBamacacacacacaCahafalahahahahacaa
 aaaaaaaDapapapapapapaEaFafaGaHaFafahahahafahahafacaa
-aaaaaaamaIapapapapapamacacacacacaJahahahahahahahacaa
-aaaaaaamamaxamamaxamamababababacazafahafahahahagacaa
+aaaaaaawaIapapapapapawacacacacacaJahahahahahahahacaa
+aaaaaaamawaxamamaxawamababababacazafahafahahahagacaa
 aaaaaaaaamaqaKaLapamabababababacaeahaMahahahalafacaa
-aaaaamamamarapapapamamamabababacacaNaNacacaOaPahacaa
+aaaaamamawarapapapawamamabababacacaNaNacacaOaPahacaa
 aaamamaQawapapapaqawaLamamababacaRaCaCaSacahaTahacaa
 aaamaUapaxapapapapaxaVaWamababacaXaCaCaCadafahahacaa
 aaamamaYawamamamamawaLamamababacaZbabbbcacahahafacaa

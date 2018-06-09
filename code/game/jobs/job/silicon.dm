@@ -33,7 +33,7 @@
 	return 1
 
 /datum/job/cyborg
-	title = "Cyborg"
+	title = "Android"
 	flag = CYBORG
 	department_flag = ENGSEC
 	faction = "Station"

@@ -18,7 +18,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	whitelist_only = 1
 	economic_modifier = 20
 
-	minimum_character_age = 25
+	minimum_character_age = 35
 	ideal_character_age = 70 // Old geezer captains ftw
 
 	outfit_type = /decl/hierarchy/outfit/job/captain
@@ -48,7 +48,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	req_admin_notify = 1
 	minimal_player_age = 10
 	economic_modifier = 10
-	minimum_character_age = 25
+	minimum_character_age = 30
 	ideal_character_age = 50
 
 	outfit_type = /decl/hierarchy/outfit/job/hop
@@ -79,7 +79,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	supervisors = "command staff"
 	selection_color = "#2F2F7F"
 	idtype = /obj/item/weapon/card/id/silver/secretary
-	minimal_player_age = 5
+	minimal_player_age = 3
 	economic_modifier = 7
 
 	access = list(access_heads, access_keycard_auth)

@@ -83,9 +83,9 @@
 /obj/machinery/porta_turret/ai_defense
 	name = "defense turret"
 	desc = "This variant appears to be much more durable."
-	installation = /obj/item/weapon/gun/energy/xray // For the armor pen.
-	health = 250 // Since lasers do 40 each.
-	maxhealth = 250
+	installation = /obj/item/weapon/gun/energy/laser
+	health = 240 // Since lasers do 40 each.
+	maxhealth = 240
 
 /obj/machinery/porta_turret/alien // The kind used on the UFO submap.
 	name = "interior anti-boarding turret"
